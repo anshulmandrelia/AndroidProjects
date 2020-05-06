@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="6"
+    android:layout_height="400dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageid"
+        android:layout_width="232dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="4"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/nameid"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="     Anshul" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/recyclerviewbackground"
+        android:text="Connect"
+        android:textSize="10dp" />
+</LinearLayout>
