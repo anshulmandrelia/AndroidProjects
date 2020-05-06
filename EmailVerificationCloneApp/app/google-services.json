@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898568233263",
+    "firebase_url": "https://emailverificationcloneap-111e7.firebaseio.com",
+    "project_id": "emailverificationcloneap-111e7",
+    "storage_bucket": "emailverificationcloneap-111e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898568233263:android:d9d17b35254929df",
+        "android_client_info": {
+          "package_name": "e.welcome.emailverificationcloneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898568233263-5q7uj1opkpf7tdv53mpvrtn0ir2on72h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.emailverificationcloneapp",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "898568233263-lk0u57rbrigl576vrvqek0gsoa7sg1r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPfZCqEDzbXvGr7VmC1Uag6tZ-wN-Rfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898568233263-lk0u57rbrigl576vrvqek0gsoa7sg1r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

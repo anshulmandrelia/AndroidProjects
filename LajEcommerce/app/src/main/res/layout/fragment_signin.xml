@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    tools:context=".SigninFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="200sp"
+        android:text="Login"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/et_emaillogin"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:hint="   email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/et_passwordlogin"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="350sp"
+        android:hint="   password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450sp"
+        android:text="Login"
+        android:layout_marginLeft="150sp"/>
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="                                         Forgot Password?"/>
+
+    <TextView
+        android:id="@+id/donthaveanaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="                                    Dont have an account?" />
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150sp"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+</FrameLayout>

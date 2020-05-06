@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="186dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150sp"
+        android:text="SignUp"
+        android:textSize="50dp" />
+    <EditText
+        android:id="@+id/et_namesignup"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:hint="   Name"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/et_numbersignup"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:hint="   Number"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/et_emailsignup"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:hint="   email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/et_passwordsignup"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="400sp"
+        android:hint="   password(at least 8 characters)"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"/>
+    <EditText
+        android:id="@+id/et_passwordconfirmsignup"
+        android:layout_width="393dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="450sp"
+        android:hint="   confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"/>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550sp"
+        android:text="Signup"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:layout_marginLeft="150sp"/>
+    <TextView
+        android:id="@+id/alreadyhaveanaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="                                 Already have an account"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150sp"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+
+</FrameLayout>

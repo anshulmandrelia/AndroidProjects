@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691614116692",
+    "firebase_url": "https://emailauthenticationconfirmappl.firebaseio.com",
+    "project_id": "emailauthenticationconfirmappl",
+    "storage_bucket": "emailauthenticationconfirmappl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691614116692:android:371da871aef4e5d5",
+        "android_client_info": {
+          "package_name": "e.welcome.emailauthenticationconfirmapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691614116692-lesi3qeu53v85rdi66b0mjhsbt3fa8ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.emailauthenticationconfirmapplication",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "691614116692-l4ilc246o9uqf0cbhno6h0j3c6q22hbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-gGrVgXrtxWvtlMOuxuPuyybBtJDKNCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691614116692-l4ilc246o9uqf0cbhno6h0j3c6q22hbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

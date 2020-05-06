@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "971920169536",
+    "firebase_url": "https://imagelabeling-3a46f.firebaseio.com",
+    "project_id": "imagelabeling-3a46f",
+    "storage_bucket": "imagelabeling-3a46f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971920169536:android:dceea4744fce2913",
+        "android_client_info": {
+          "package_name": "e.welcome.imagelabeling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971920169536-rvu484th7f71prg7i90p2i307kfeg4dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.imagelabeling",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "971920169536-r0dt9c5cs3bkbcvnq489riu04nbbfdrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxJrsm_WAC83d5eKhLz879YIe6hvmIlVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971920169536-r0dt9c5cs3bkbcvnq489riu04nbbfdrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

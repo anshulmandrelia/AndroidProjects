@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109630545188",
+    "firebase_url": "https://lajecommerce.firebaseio.com",
+    "project_id": "lajecommerce",
+    "storage_bucket": "lajecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109630545188:android:98e113951930ab2d",
+        "android_client_info": {
+          "package_name": "e.welcome.lajecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109630545188-332m8rtl83jg2vu8qqr07nkg0p979v6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.lajecommerceapp",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "109630545188-ips047m5cj17e871p3skqn734kbq4g2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5kIK6BQk81yncxLQRMU5ANmzC6nNK6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109630545188-ips047m5cj17e871p3skqn734kbq4g2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

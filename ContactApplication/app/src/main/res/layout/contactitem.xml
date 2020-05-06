@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/contactstructure"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_person_black_24dp" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginStart="70dp">
+    <TextView
+        android:id="@+id/contactname"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Anshul" />
+      <TextView
+          android:id="@+id/contactemail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="anshulmandrelia2000@gmail.com"/>
+  </LinearLayout>
+</androidx.cardview.widget.CardView>
