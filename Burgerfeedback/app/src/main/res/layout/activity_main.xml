@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F3B431"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:background="#E8290B"
+        android:fontFamily="sans-serif"
+        android:text="             REVIEW"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="605dp"
+        android:layout_height="328dp"
+        android:src="@drawable/bur" />
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#E8290B"/>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="325dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imagebackground"
+        android:hint="                      Enter your review" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="305dp"
+        android:layout_marginTop="20dp"
+        android:background="#E8290B"
+        android:text="SUBMIT FEEDBACK"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+</LinearLayout>

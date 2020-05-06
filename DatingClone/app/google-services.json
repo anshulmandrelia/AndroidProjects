@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647073599491",
+    "firebase_url": "https://datingclone.firebaseio.com",
+    "project_id": "datingclone",
+    "storage_bucket": "datingclone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647073599491:android:0e27433569057a77",
+        "android_client_info": {
+          "package_name": "e.welcome.datingclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647073599491-l5nkt2j49qh1pt85me0r17ka34k6hotb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.datingclone",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "647073599491-h3c7ukqbv0h60kar0auia4h8ag9al3m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp8XkNpn7NoZ5R410DrZbejiqAR8VtIXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647073599491-h3c7ukqbv0h60kar0auia4h8ag9al3m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

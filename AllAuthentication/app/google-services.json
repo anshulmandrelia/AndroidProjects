@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420933842550",
+    "firebase_url": "https://allauthentication-a4a7a.firebaseio.com",
+    "project_id": "allauthentication-a4a7a",
+    "storage_bucket": "allauthentication-a4a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420933842550:android:d6d456e457f0b2d9",
+        "android_client_info": {
+          "package_name": "e.welcome.allauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420933842550-n23bi4brqrh8gsba3lkr6icl99ms03ds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.welcome.allauthentication",
+            "certificate_hash": "fc708f41778012bd392f4071207218496a240149"
+          }
+        },
+        {
+          "client_id": "420933842550-p8kg2buodivsdhg94vpfq77iglv8oogn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJvYjrys1eFkyXF8aKHLBPkEkdjby1G8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420933842550-p8kg2buodivsdhg94vpfq77iglv8oogn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
